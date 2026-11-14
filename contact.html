@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Gombe Secondary School for admission, academic and general enquiries.">
+  <title>Contact | Gombe Secondary School</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+  <div class="logo-area"><p class="school-mark" aria-label="Gombe Secondary School logo">GSS</p><div><p class="school-name">Gombe Secondary School</p><p class="school-location">Nansana, Wakiso District</p></div></div>
+  <nav aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="services.html">Academics</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="media.html">Media</a></li><li><a class="active" href="contact.html" aria-current="page">Contact</a></li><li><a href="faq.html">FAQ</a></li></ul></nav>
+</header>
+<main id="main-content">
+  <section class="page-intro"><h1>Contact and Admissions</h1><p>Send an enquiry or visit the school office during opening hours.</p></section>
+  <section class="section contact-layout">
+    <div>
+      <h2>School Information</h2>
+      <address>Gombe, Nansana<br>Wakiso District, Uganda</address>
+      <p><strong>Phone:</strong> <a href="tel:+256745098745">+256 745 098745</a></p>
+      <p><strong>Email:</strong> <a href="mailto:info@gombesecondary.ac.ug">info@gombesecondary.ac.ug</a></p>
+      <h3>Opening Hours</h3>
+      <p>Monday - Friday: 8:00 a.m. - 5:00 p.m.</p>
+    </div>
+    <form class="contact-form" action="#" method="post">
+      <fieldset><legend>Enquiry details</legend>
+        <label for="name">Full name</label><input id="name" name="name" type="text" autocomplete="name" required>
+        <label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required>
+        <label for="phone">Phone number</label><input id="phone" name="phone" type="tel" pattern="[0-9+ ]{9,15}" placeholder="+256..." required>
+        <label for="topic">Enquiry type</label><select id="topic" name="topic" required><option value="">Select an option</option><option>Admission</option><option>Academics</option><option>Fees</option><option>General enquiry</option></select>
+        <label for="class">Class of interest</label><input id="class" name="class" type="text" placeholder="For example S1 or S5" required>
+        <label for="message">Message</label><textarea id="message" name="message" rows="5" minlength="10" required></textarea>
+        <label class="checkbox-label"><input type="checkbox" name="consent" required> I agree to be contacted about this enquiry.</label>
+        <button class="btn" type="submit">Send Enquiry</button>
+      </fieldset>
+    </form>
+  </section>
+  <section class="section" aria-labelledby="map-heading">
+    <h2 id="map-heading">Find Us</h2>
+    <iframe title="Map showing Gombe, Nansana in Wakiso District" src="https://www.google.com/maps?q=Gombe%20Nansana%20Wakiso%20Uganda&output=embed" loading="lazy"></iframe>
+  </section>
+</main>
+<footer><p>&copy; 2026 Gombe Secondary School. All Rights Reserved.</p><p>Butambala District, Uganda</p></footer>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Student admission application form for Gombe Secondary School.">
+  <title>Admission Form | Gombe Secondary School</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+  <div class="logo-area"><p class="school-mark" aria-label="Gombe Secondary School logo">GSS</p><div><p class="school-name">Gombe Secondary School</p><p class="school-location">Nansana, Wakiso District</p></div></div>
+  <nav aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="services.html">Academics</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="media.html">Media</a></li><li><a class="active" href="contact.html">Contact</a></li><li><a href="faq.html">FAQ</a></li></ul></nav>
+</header>
+<main id="main-content">
+  <section class="page-intro"><h1>Student Admission Application</h1><p>Complete this form as an initial admission enquiry.</p></section>
+  <section class="section">
+    <form class="contact-form" action="#" method="post">
+      <fieldset><legend>Student and guardian details</legend>
+        <label for="student-name">Student full name</label><input id="student-name" name="student-name" type="text" autocomplete="name" required>
+        <label for="birth-date">Date of birth</label><input id="birth-date" name="birth-date" type="date" required>
+        <label for="gender">Gender</label><select id="gender" name="gender" required><option value="">Select gender</option><option>Male</option><option>Female</option></select>
+        <label for="class">Class applying for</label><input id="class" name="class" type="text" placeholder="For example S1 or S5" required>
+        <label for="phone">Phone number</label><input id="phone" name="phone" type="tel" pattern="[0-9+ ]{9,15}" required>
+        <label for="guardian">Parent or guardian name</label><input id="guardian" name="guardian" type="text" required>
+        <label for="email">Guardian email</label><input id="email" name="email" type="email" autocomplete="email" required>
+        <label for="information">Additional information</label><textarea id="information" name="information" rows="5"></textarea>
+        <button class="btn" type="submit">Submit Application</button>
+      </fieldset>
+    </form>
+  </section>
+</main>
+<footer><p>&copy; 2026 Gombe Secondary School. All Rights Reserved.</p><p>Butambala District, Uganda</p></footer>
+</body>
+</html>
